@@ -1,0 +1,79 @@
+table.dataTable>thead .sorting:before, table.dataTable>thead .sorting_asc:before, table.dataTable>thead .sorting_desc:before, table.dataTable>thead .sorting_asc_disabled:before, table.dataTable>thead .sorting_desc_disabled:before{
+    content: "\f30c";
+    font-family: 'Font Awesome 5 free';
+}
+table.dataTable>thead .sorting:after, table.dataTable>thead .sorting_asc:after, table.dataTable>thead .sorting_desc:after, table.dataTable>thead .sorting_asc_disabled:after, table.dataTable>thead .sorting_desc_disabled:after{
+    content: "\f309";
+    font-family: 'Font Awesome 5 free';
+}
+.dropdown-divider{
+    margin: 0.5rem -0.5rem;
+    border-top: 1px solid #a7a7a7;
+}
+.nav-sidebar .nav-item>.nav-link{
+    color: #e5e5e5;
+}
+.sidebar-mini.sidebar-collapse .sidebar .nav-sidebar .nav-link span, 
+.sidebar-mini.sidebar-collapse .sidebar .nav-sidebar .nav-link i.right{
+    margin-left: -10px;
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    visibility: hidden;
+}
+.sidebar-mini.sidebar-collapse .main-sidebar:not(.sidebar-no-expand):hover .sidebar .nav-sidebar .nav-link span,
+.sidebar-mini.sidebar-collapse .main-sidebar:not(.sidebar-no-expand):hover .sidebar .nav-sidebar .nav-link i.right{
+    display: inline-block;
+    margin-left: 0;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    visibility: visible;
+}
+.dt-buttons{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.dt-buttons button.btn{
+    width: fit-content;
+    flex: unset;
+}
+.dataTables_length{
+    float: left;
+}
+div.dataTables_wrapper div.dataTables_processing{
+    z-index: 9;
+}
+.select-action-multiple{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+table.dataTable>thead>tr:last-child>th:not(.sorting_disabled){
+    padding-right: 0.75rem;
+}
+
+.search-advanced .select2-selection__placeholder{
+    font-weight: normal;
+}
+.search-advanced .select2-container .select2-selection--single .select2-selection__rendered{
+    font-weight: normal;
+}
+.search-advanced ~ input{
+    float: left;
+    width: 90%;
+}
+.search-advanced ~ i{
+    float: right;
+    line-height: 2.4em;
+}
+.search-advanced .select2-container--bootstrap4{
+    width: 90% !important;
+    margin-bottom: .5em;
+}

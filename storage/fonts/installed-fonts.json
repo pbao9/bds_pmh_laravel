@@ -1,0 +1,14 @@
+{
+    "noto sans kr": {
+        "normal": "noto_sans_kr_normal_a569f6e643d734e5421c27d1d94d54f3"
+    },
+    "noto sans kr bold": {
+        "normal": "noto_sans_kr_bold_normal_c47423a174ee3ef69a51b39d611cc59e"
+    },
+    "noto": {
+        "normal": "noto_normal_596877f729315cbbcafb1e30def3fbc3"
+    },
+    "noto bold": {
+        "normal": "noto_bold_normal_3466d0643fbc5bf7e766cfb8b493fb0f"
+    }
+}

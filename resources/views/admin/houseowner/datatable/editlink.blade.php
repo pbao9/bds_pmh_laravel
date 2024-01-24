@@ -1,0 +1,1 @@
+<x-link :href="route('admin.houseowner.edit', $id)" :title="$id"/>

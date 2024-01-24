@@ -1,0 +1,284 @@
+@media (min-width: 1101px) {
+    #header .nav-menu-mobi {
+        display: none;
+    }
+
+    #header .nav-link.active {
+        color: #dd3333 !important;
+        border-bottom: 3px solid #dd3333;
+    }
+    
+    #header a.nav-link:hover {
+        color: #dd3333 !important;
+        border-bottom: 3px solid #dd3333;
+    }
+    
+    .modal-form {
+        --bs-modal-margin: 9rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    #header .nav-menu-desktop {
+        display: none;
+    }
+
+    .d-mobi-none {
+        display: none !important;
+    }
+    #header .nav-link.active {
+        color: #dd3333 !important;
+    }
+    
+    #header a.nav-link:hover {
+        color: #dd3333 !important;
+    }
+    
+    .modal-form {
+        margin-top: 200px;
+    }
+
+    #main {
+        padding-top: 23px;
+    }
+}
+
+body {
+    font-family: "Cabin", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: currentcolor;
+}
+
+a:hover {
+    color: currentcolor;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+#header .nav-menu-mobi {
+    background: #f2f2f2;
+}
+
+#offcanvasDarkNavbar {
+    width: 260px;
+}
+
+#header .menu-drop button.btn-close {
+    position: absolute;
+    right: 0%;
+}
+
+#header .menu-drop button {
+    background-color: white;
+}
+
+#header .menu-drop button {
+    background-color: rgb(0 0 0 / 5%);
+    padding: 15px 10px;
+    border-radius: 0;
+}
+
+#header .menu-drop button.active {
+    background: #dedede !IMPORTANT;
+    border-bottom: 3px solid #ff9800 !important;
+}
+
+.text-title{
+    text-align: center;
+    padding-top: 10px;
+}
+.text-title h2 {
+    font-family: ImpactCharcoal;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(40, 69, 153);
+}
+.text-title h4{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(0, 165, 81);
+} 
+.img-logo{
+    text-align: center;
+    padding-left: 10%;
+}
+.contact{
+    padding-left: 20px;
+}
+.list_menu{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#list_menu{
+    padding-left: 17%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidenav .side_child_first {
+    border-top: 1px solid #f0f0f0;
+    background-color: #f8f8f8;
+}
+
+.sidenav a {
+    padding: 0px 15px;
+    border-bottom: 1px solid #f0f0f0;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+  
+#header .tab-content li.nav-item {
+    border-bottom: 1px solid #f0f0f0;
+    height: 50px;
+    line-height: 50px;
+}
+
+#header .next-menu {
+    position: absolute;
+    top: 5%;
+    right: 0%;
+    padding: 15px;
+}
+
+#ic-hotline {
+    font-size: 20px;
+    color: #e91e63;
+    font-weight: 700;
+}
+
+#header li.nav-item {
+    padding: 0px 10px;
+}
+
+#header li.nav-item a {
+    color: rgb(41, 69, 154);
+    text-transform: uppercase;
+}
+
+#header .nav-link i.fas.fa-chevron-down {
+    float: none !important;
+    font-size: 12px;
+}
+
+#auto-text-2::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+  
+/* --- Css button xem them --- */
+.btn-xemthem {
+    font-size: 14px;
+    border-radius: 2px;
+    background-color: #0d6638;
+}
+
+.btn-xemthem span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn-xemthem .fas {
+    display: none;
+}
+
+.btn-xemthem:hover .fas {
+    display: inline-block;
+}
+
+.btn-xemthem:hover span {
+    padding-left: 8px;
+}
+
+#footer {
+    background: #222222 url(../img/footer.png) bottom repeat-x;
+    background-color: rgb(205, 205, 205);
+}
+
+#footer section {
+    background-color: rgba(255, 255, 255, 0.576);
+}
+
+#footer section p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.btn-orange {
+    background-color: #ee1d23;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+#header .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+#header .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 220px;    
+    -webkit-box-shadow: 1px 1px 15px rgb(0 0 0 / 15%);
+    box-shadow: 1px 1px 15px rgb(0 0 0 / 15%);
+    border-radius: 5px;
+    z-index: 1;
+}
+  
+#header .dropdown-content a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+
+#header .dropdown-content a:hover {background-color: #f7f7f7; border-radius: 5px;}
+#header .dropdown:hover .dropdown-content {display: block;}
+
+
+input.form-control:focus {
+    box-shadow: none;
+    border-color: #dc3545;
+}
+
+.form-control {
+    font-size: 13px;
+}
+
+button.accordion-button:focus {
+    box-shadow: none;
+}
+
+#info-dientich {
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px;
+}
